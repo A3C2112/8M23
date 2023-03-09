@@ -4,6 +4,7 @@
 }
 :root {
   --color-fondo: #7f4796;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 * {
   margin: 0;
@@ -48,7 +49,9 @@
   border-color: white;
   border-radius: 5px;
 }
+/******************************Seccion1 Clase******************************************/
 .person {
+  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -59,10 +62,55 @@
   border-width: 1px;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 .icon {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.icon > img {
+  margin-top: 0.7em;
+  margin-left: 0.15em;
+  margin-right: 0.3em;
+  filter: invert(0.5);
+  filter: opacity(30%);
+}
+.name {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.profile {
+  margin-bottom: 1em;
+  font-size: 0.7em;
+  color: rgb(2, 95, 95);
+  display: flex;
+  background-color: rgb(182, 217, 226);
+  border-radius: 15px;
+  border-left: 0.8em;
+  border-right: 0.8em;
+  border-color: rgb(182, 217, 226);
+  border-style: solid;
+  text-align: center;
+  font-weight: bold;
+}
+.descrip {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
+  color: rgb(75, 74, 74);
+}
+.descrip > p {
+  margin-top: 0.7em;
+}
+/*****************************************BLOQUE SALIDAS*******************************/
+.name1 {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 /**********************HEADER****************/
 #cabeza {
@@ -86,13 +134,13 @@
 #titulo {
   width: 90%;
   margin-left: 15%;
-  padding-top: 35px;
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 #titulo > h1 {
-  width: 55%;
+  width: 40%;
   font-size: 45px;
   color: white;
   margin: 0;
@@ -102,8 +150,8 @@
   flex-direction: row;
 }
 #titulo > p {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   color: white;
 }
 #enlace {
@@ -118,6 +166,7 @@
 #enlace > .relleno {
   width: auto;
 }
+/*************************************Seccion 1 Cuerpo********************************/
 #seccion1 {
   width: 100%;
   background: white;
@@ -147,66 +196,149 @@
 #event > p {
   width: 27%;
   text-align: justify;
+  color: rgb(75, 74, 74);
 }
 #uno {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-right: 20px;
+  margin-left: 5em;
+  margin-right: 1em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #uno > img {
-  margin: 15px;
+  margin-top: 2em;
   border-radius: 50%;
 }
 #dos {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #dos > img {
-  margin: 15px;
+  margin-top: 2em;
   border-radius: 50%;
 }
 #tres {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 15px;
-  margin-right: 10px;
+  margin-left: 1em;
+  margin-right: 1em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #tres > img {
-  margin: 15px;
+  margin-top: 2em;
   border-radius: 50%;
 }
 #cuatro {
-  width: 20%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 20px;
+  margin-left: 1em;
+  margin-right: 5em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #cuatro > img {
-  margin: 15px;
+  margin-top: 2em;
   border-radius: 50%;
+}
+#seccion2 {
+  width: 100%;
+  height: auto;
+  margin-top: 5.5em;
+  padding-bottom: 5.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+#derecha {
+  width: 25%;
+  margin-right: 7em;
+  color: white;
+}
+#derecha > p {
+  font-size: 1.5em;
+}
+#izquierda {
+  margin-left: 7em;
+}
+#izquierda > .relleno {
+  margin-right: 0.7em;
+}
+#seccion3 {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top: 4.5em;
+  text-align: justify;
+}
+#arriba {
+  font-size: 2.7em;
+}
+#enmedio {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#enmedio > div {
+  margin: 1.5em;
+}
+#abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#abajo > div {
+  margin: 1.5em;
+}
+#enmuno {
+  width: 28%;
+  padding: 2em;
+  box-shadow: 0px 0px 20px rgb(214, 213, 213);
+  border-radius: 5px;
+}
+#enmdos {
+  width: 28%;
+  padding: 2em;
+  box-shadow: 0px 0px 20px rgb(214, 213, 213);
+  border-radius: 5px;
+}
+#abuno {
+  width: 28%;
+  padding: 2em;
+  box-shadow: 0px 0px 20px rgb(214, 213, 213);
+  border-radius: 5px;
+}
+#abdos {
+  width: 28%;
+  padding: 2em;
+  box-shadow: 0px 0px 20px rgb(214, 213, 213);
+  border-radius: 5px;
 }
