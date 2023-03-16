@@ -112,6 +112,16 @@
   font-size: 1.3em;
   font-weight: bold;
 }
+.descrip1 > p {
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+  color: gray;
+  font-size: 1em;
+}
+.linkmas {
+  font-weight: bold;
+  color: rgb(2, 95, 95);
+}
 /**********************HEADER****************/
 #cabeza {
   width: 90%;
@@ -296,7 +306,7 @@
   align-content: center;
   align-items: center;
   padding-top: 4.5em;
-  text-align: justify;
+  padding-bottom: 4.5em;
 }
 #arriba {
   font-size: 2.7em;
@@ -308,7 +318,7 @@
   justify-content: center;
 }
 #enmedio > div {
-  margin: 1.5em;
+  margin: 1em;
 }
 #abajo {
   display: flex;
@@ -316,29 +326,51 @@
   justify-content: center;
 }
 #abajo > div {
-  margin: 1.5em;
+  margin: 1em;
 }
 #enmuno {
-  width: 28%;
+  width: 27%;
   padding: 2em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #enmdos {
-  width: 28%;
+  width: 27%;
   padding: 2em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #abuno {
-  width: 28%;
+  width: 27%;
   padding: 2em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
 }
 #abdos {
-  width: 28%;
+  width: 27%;
   padding: 2em;
   box-shadow: 0px 0px 20px rgb(214, 213, 213);
   border-radius: 5px;
+}
+#seccion4 {
+  width: 100%;
+  height: auto;
+  margin-top: 5.5em;
+  padding-bottom: 5.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+#centro {
+  width: 68%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
